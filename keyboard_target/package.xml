@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>keyboard_target</name>
+  <version>0.6.0</version>
+  <description>Keyboard controls target position.</description>
+
+  <maintainer email="ziningtang09@gmail.com">Tmono</maintainer>
+
+  <license>BSD</license>
+
+  <author>Tmono</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>rospy</run_depend>
+</package>
