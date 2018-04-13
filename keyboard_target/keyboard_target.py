@@ -94,7 +94,11 @@ def useKey():
 		if key in moveBindings.keys():
 			state_ = 0
 			goal_x += moveBindings[key][0]*speed
+			if goal_x < 0:
+				goal_x = 0.
 			goal_y += moveBindings[key][1]*speed
+			if goal_y < 0:
+				goal_y = 0.
 		elif key == 'r' or key == "R":
 			state_ = 0
 			goal_x = goal_x_default
